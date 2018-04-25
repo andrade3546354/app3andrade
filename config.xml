@@ -2,7 +2,7 @@
 
 <widget xmlns= "http://www.w3.org/ns/widgets"
 xmlns:gap= "http://phonegap.com/ns/1.0"
-id = "com.phonegap.app2"
+id = "com.phonegap.app3"
 version = "1.0.0">
 
 <name> APP3 Dia Mundia de la Bicicleta </name>
@@ -27,7 +27,8 @@ adolfo andrade rangel
 <!--para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href="http ://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="http ://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--Plugins-->
